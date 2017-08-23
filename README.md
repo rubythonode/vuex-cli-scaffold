@@ -36,7 +36,7 @@ This will create all necessary module files at `src/store/modules` including the
 
 ### Create multiple entities
 
-To create an entity, type this into the console.
+To create multiple entities, type this into the console.
 
 ```bash
 $ npm run vuex-cli-scaffold product shop basket
