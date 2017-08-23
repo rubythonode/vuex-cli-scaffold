@@ -50,11 +50,11 @@ You can even create nested entities.
 $ npm run vuex-cli-scaffold shop shop/products shop/products/product
 ```
 
-**Important**: When you creating nested entities you have to manually set the modules value in the parent modules. In our case, you would need to set the modules for all entities.
+**Important**: When you creating nested entities, you have to manually set the modules value in the parent modules. In our case, you would need to set the modules for all entities except `shop`.
 
 ### Initialize store
 
-If you start from zero you can create a store next to other entities.
+If you start from zero, you can create a store next to other entities.
 
 ```bash
 $ npm run vuex-cli-scaffold shop shop/products shop/products/product -new
