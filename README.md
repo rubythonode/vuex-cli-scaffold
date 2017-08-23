@@ -1,6 +1,6 @@
 # vuex-cli-scaffold
 
-Generating module entities for your Vue.js store is repeating and verbose. This packages lets you create multiple entities at once including state, mutations, actions getters, the module itself and even the root store. You can also create nested entities.
+Generating module entities for your Vue.js store is repetitive and verbose. This packages lets you create one or multiple entities at once including the state, mutations, actions getters, the module itself and even the store. You can also create nested entities.
 
 ## Setup
 
@@ -10,7 +10,7 @@ Generating module entities for your Vue.js store is repeating and verbose. This 
 $ npm install vuex-cli-scaffold --save-dev
 ```
 
-### Script
+### Add script
 
 Inside your `package.json`, add this to `scripts`:
 
